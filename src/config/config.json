@@ -4,22 +4,23 @@
     "base_url": "/",
     "base_path": "/",
     "favicon": "/favicon.png",
-    "logo": "https://s3.amazonaws.com/gndx.dev/ev0-astro-logo.png",
+    "logo": "https://i.ibb.co/7vq1BGF/DALL-E-2023-10-24-22-31-37-Photo-of-a-vibrant-blue-square-colored-in-29-C2-FD-The-square-has-rounded.png",
     "lang": "en",
-    "description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript.",
-    "pageSize": 6
+    "description": "Mostafa's space to share insights, discoveries, and thoughts on the ever-evolving world of web development.",
+    "pageSize": 10
   },
   "features": {
-    "youtube": true,
+    "youtube": false,
     "dark_mode": true
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
-    "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "meta_author": "Mostafa Kashoul Milly",
+    "meta_description": "Dive into Mostafa's thoughts on web development, where he shares his insights, discoveries, and experiences in the field."
   },
   "author": {
-    "name": "Oscar Barajas Tavares @gndx",
-    "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "name": "Mostafa Kashoul Milly",
+    "position": "Frontend Engineer @ Averroes.ai",
+    "avatar": "https://i.ibb.co/4M0xS85/Picsart-23-03-08-07-16-46-851-2.jpg",
+    "bio": "Mostafa's space to share insights, discoveries, and thoughts on the world of web development."
   }
 }
