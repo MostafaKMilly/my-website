@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Mostafa | Frontend Engineer at Averroes.ai",
-    "base_url": "/",
+    "base_url": "https://mostafakmilly.vercel.app/",
     "base_path": "/",
     "favicon": "/favicon.png",
     "logo": "https://i.ibb.co/7vq1BGF/DALL-E-2023-10-24-22-31-37-Photo-of-a-vibrant-blue-square-colored-in-29-C2-FD-The-square-has-rounded.png",
