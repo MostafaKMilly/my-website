@@ -11,6 +11,55 @@ pubDate: '2024-04-28T03:33:34.059Z'
 
 React 19 Beta has arrived, and it’s packed with new features designed to simplify and enhance the developer experience. This post will explore each new feature in detail, providing examples to illustrate how these updates can be integrated into your projects.
 
+#### React Forget Compiler: Automatic Memoization Comes to React
+
+Say goodbye to manual memoization in your React projects with the introduction of the React Forget compiler. This innovative tool is designed to simplify developer workflows by automatically handling memoization, which traditionally required explicit management using hooks like `useMemo` and `useCallback`.
+
+The philosophy behind React Forget is to make React development more intuitive and efficient. We are grateful to the React team for their continuous efforts in enhancing the developer experience.
+
+Currently in use by applications such as Quest Store and Instagram, the React Forget compiler is set to make a broader impact with its inclusion in the upcoming React 19 release. Once React 19 is available, React developers can enjoy out-of-the-box memoization, removing the complexity of manual memoization from their development process.
+
+**Example without React Forget:**
+
+```jsx
+import React, { useMemo } from 'react';
+
+function ExpensiveComponent({ items }) {
+  const sortedItems = useMemo(() => {
+    return items.sort((a, b) => a.value - b.value);
+  }, [items]);
+
+  return (
+    <ul>
+      {sortedItems.map((item) => (
+        <li key={item.id}>{item.label}</li>
+      ))}
+    </ul>
+  );
+}
+```
+
+**With React Forget:**
+
+```jsx
+import React from 'react';
+
+function ExpensiveComponent({ items }) {
+  // Automatically memoized by React Forget
+  const sortedItems = items.sort((a, b) => a.value - b.value);
+
+  return (
+    <ul>
+      {sortedItems.map((item) => (
+        <li key={item.id}>{item.label}</li>
+      ))}
+    </ul>
+  );
+}
+```
+
+In the second example, `sortedItems` is automatically memoized behind the scenes, simplifying the component and reducing boilerplate. This is just a glimpse of how the React Forget compiler can streamline your React development. For a deeper dive into its capabilities, watch the detailed discussion in this video: [Exploring React Forget](https://www.youtube.com/watch?v=qOQClO3g8-Y).
+
 #### Introduction of Actions
 
 React 19 introduces a new concept called "Actions" to handle data mutations and state updates more efficiently. This feature is a game-changer for forms and other interactive components, allowing developers to manage asynchronous operations with less code and increased reliability.
