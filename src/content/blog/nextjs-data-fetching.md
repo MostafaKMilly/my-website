@@ -118,13 +118,7 @@ interface UserCardProps {
 
 const UserCard = async ({ user, photos }: UserCardProps) => {
   const comments = await getComments();
-  return (
-    <div className="user-card">
-      <Image src={photos[user.id].url} alt={user.name} width={100} height={100} />
-      <h2>{user.name}</h2>
-      <p>{comments[user.id]}</p>
-    </div>
-  );
+  return (...);
 };
 
 export default UserCard;
