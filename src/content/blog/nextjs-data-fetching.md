@@ -151,3 +151,5 @@ Key takeaways:
 3. **Client-Side Data Fetching**: Start with the built-in data-fetching tools provided by Next.js. Avoid introducing third-party libraries like React Query until you have a clear need for them, following the principle of using the right tool for the job.
 
 By thoughtfully implementing these strategies, you can create efficient, performant, and user-friendly Next.js applications. Happy coding!
+
+For a practical implementation of these strategies, check out the accompanying GitHub repository: [Next.js Data Fetching Strategies](https://github.com/MostafaKMilly/nextjs-fetching-strategies).
