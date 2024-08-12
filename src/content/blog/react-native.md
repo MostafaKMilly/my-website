@@ -9,7 +9,7 @@ pubDate: '2024-08-13T15:46:22.382Z'
 
 # Transitioning from React.js to React Native
 
-As a React.js developer, you already have a powerful toolkit for building user interfaces. After working with React.js for a while, I decided to explore React Native to expand my skillset into mobile development. The journey has been both challenging and rewarding, and I’m excited to share what I’ve learned so far.
+As a React.js developer, you already have a powerful toolkit for building user interfaces. After working with React.js for a while, I decided to explore React Native to expand my skillset into mobile development, and I’m excited to share what I’ve learned so far.
 
 ## The shared things between React.js and React Native
 
@@ -28,10 +28,10 @@ While there are many similarities, React Native introduces new concepts and comp
 
 In React.js, you work with HTML elements like `<div>`, `<span>`, and `<button>`. However, React Native uses different components that are designed for mobile platforms:
 
-- **`<View>`**: This is the most common container component in React Native, analogous to a `<div>` in React.js.
+- **`<View>`**: This is the most common container component in React Native, similar to a `<div>` in React.js.
 - **`<Text>`**: Used for displaying text, similar to `<p>` or `<span>`. In React Native, all text must be wrapped in a `<Text>` component.
 
-- **`<TouchableOpacity>`**: This component is used for creating clickable elements, similar to `<button>` in React.js, but with the added feature of opacity changes on press to provide feedback.
+- **`<Pressable>`**: This component is used for creating interactive elements, similar to `<button>` in React.js.
 
 #### Example: Converting a Web Component to React Native
 
@@ -56,15 +56,15 @@ export default WebComponent;
 
 ```javascript
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Pressable, StyleSheet } from 'react-native';
 
 const MobileComponent = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.heading}>Hello, World!</Text>
-      <TouchableOpacity onPress={() => alert('Button Clicked!')} style={styles.button}>
+      <Pressable onPress={() => alert('Button Clicked!')} style={styles.button}>
         <Text style={styles.buttonText}>Click Me</Text>
-      </TouchableOpacity>
+      </Pressable>
     </View>
   );
 };
