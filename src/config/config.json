@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Mostafa | Frontend Engineer at Averroes.ai",
+    "title": "Mostafa | Software Engineer at Averroes.ai",
     "base_url": "https://mostafakmilly.vercel.app/",
     "base_path": "/",
     "favicon": "/favicon.png",
@@ -19,7 +19,7 @@
   },
   "author": {
     "name": "Mostafa Kashoul Milly",
-    "position": "Frontend Engineer @ Averroes.ai",
+    "position": "Software Engineer @ Averroes.ai",
     "avatar": "https://i.ibb.co/4M0xS85/Picsart-23-03-08-07-16-46-851-2.jpg",
     "bio": "Mostafa's space to share insights, discoveries, and thoughts on the world of web development."
   }
