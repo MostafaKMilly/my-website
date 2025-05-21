@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Mostafa | Software Engineer at Averroes.ai",
+    "title": "Mustafa | Software Engineer at Seek",
     "base_url": "https://mostafakmilly.vercel.app/",
     "base_path": "/",
     "favicon": "/favicon.png",
     "logo": "https://i.ibb.co/7vq1BGF/DALL-E-2023-10-24-22-31-37-Photo-of-a-vibrant-blue-square-colored-in-29-C2-FD-The-square-has-rounded.png",
     "lang": "en",
-    "description": "Mostafa's space to share insights, discoveries, and thoughts on the ever-evolving world of web development.",
+    "description": "Mustafa's space to share insights, discoveries, and thoughts on the ever-evolving world of web development.",
     "pageSize": 9
   },
   "features": {
@@ -14,13 +14,13 @@
     "dark_mode": true
   },
   "metadata": {
-    "meta_author": "Mostafa Kashoul Milly",
-    "meta_description": "Dive into Mostafa's thoughts on web development, where he shares his insights, discoveries, and experiences in the field."
+    "meta_author": "Mustafa Kashoul Melli",
+    "meta_description": "Dive into Mustafa's thoughts on web development, where he shares his insights, discoveries, and experiences in the field."
   },
   "author": {
-    "name": "Mostafa Kashoul Milly",
-    "position": "Software Engineer @ Averroes.ai",
-    "avatar": "https://i.ibb.co/4M0xS85/Picsart-23-03-08-07-16-46-851-2.jpg",
-    "bio": "Mostafa's space to share insights, discoveries, and thoughts on the world of web development."
+    "name": "Mustafa Kashoul Melli",
+    "position": "Software Engineer @ Seek",
+    "avatar": "https://i.ibb.co/zTyssvPt/1000057070.jpg",
+    "bio": "Mustafa's space to share insights, discoveries, and thoughts on the world of web development."
   }
 }
